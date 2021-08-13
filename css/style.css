@@ -1,0 +1,325 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* headings  */
+.h-primary{
+    margin: 100px 50px 40px 50px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.h-secondary{
+    margin: 50px;
+    font-size: 28px;
+}
+/* Navigation Bar  */
+.navbar{
+    height: 90px;
+    margin-top: 0px;
+    padding: 20px;
+    box-shadow: 0px 5px 5px rgb(201, 199, 199) ;
+}
+.nav-item{
+    margin-right: 20px;
+    padding:0px 23px 0px 23px;
+    font-size: 23px;
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-weight:500;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgba(48, 77, 241, 0.945);
+}
+.navbar-light .navbar-nav .nav-link .offer{
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.container-fluid img{
+    width: 15%;
+    margin: 0px 30px 10px 30px;
+}
+.btn-light{
+    border: 1px solid rgb(41 106 252 / 84%);
+    background-color: white;
+    color: rgb(41 106 252 / 84%);
+    font-weight: bold;
+}
+.btn-light:hover{
+    color: rgb(41 106 252 / 84%);
+    background-color: white;
+    border: 1px solid rgb(41 106 252 / 84%);
+}
+.btn-primary{
+    background-color:rgb(41 106 252 / 84%); 
+}
+.btn-primary:hover{
+    background-color:rgb(41 106 252 / 84%); 
+}
+.navbar-light .navbar-nav .register{
+    color: white;
+}
+.navbar-light .navbar-nav .register:hover{
+    color: white;
+}
+
+
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+#search input{
+    /* margin: 0px 10px; */
+    border: 1px solid grey;
+    height: 50px;
+    width: 30%;
+    padding: 12px 12px;
+    font-size: 20px;
+}
+.searchbtn .btn-primary{
+    background-color: rgb(41 106 252 / 84%);
+    width: 150%;
+    height: 50px;
+}
+
+/* slideshow */
+.carousel{
+    margin-top: 60px;
+}
+.carousel-item img{
+    height: 600px;
+}
+.carousel-caption h1{
+    color: black;
+    font-weight: bold;
+    font-size: 70px;
+}
+.carousel-caption p{
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* internships  */
+.info{
+    display: flex;
+}
+.info p{
+    margin: 10px 50px;
+    font-size: 25px;
+    color: rgb(46, 46, 46);
+}
+.info .p-right{
+    display: flex;
+    align-items: flex-end;
+    margin: 10px 30px 10px 900px;
+    color: rgb(41 106 252 / 84%);
+    cursor: pointer;
+}
+.info .p-right:hover{
+    transform: scale(1.1);
+}
+.p-right i{
+    margin: 0px 10px;
+}
+.cities{
+    display: flex;
+    margin: 50px 30px;
+}
+.city-img{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    width: 50%;
+    padding: 15px;
+}
+.city-img:hover{
+    border: 1px solid whitesmoke;
+    box-shadow: 5px 5px 10px rgb(202, 202, 202);
+    color: rgb(41 106 252 / 84%);
+    cursor: pointer;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.city-img .resize{
+    width: 111px;
+}
+.city-img .delhi{
+    width: 90px;
+}
+.city-img .kolkata{
+    width: 120px;
+}
+.city-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 10px ; */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.items{
+    margin: 30px;
+    display: flex;
+}
+.popular{
+    /* height: 300px; */
+    margin: 10px 30px;
+    padding: 16px 8px 18px;
+}
+.popular:hover{
+    border: 1px solid whitesmoke;
+    box-shadow: 5px 5px 10px rgb(202, 202, 202);
+    color: rgb(41 106 252 / 84%);
+    cursor: pointer;
+    border-radius: 10px;
+    transform: scale(1.1);
+
+}
+.popular img{
+    width: 130px;
+}
+.popular .name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* training  */
+.heading{
+    display: flex;
+}
+.heading .btn{
+    background-color: orange;
+    color: white;
+    height: 50px;
+   margin: 103px 5px 40px 0px;
+}
+.training{
+    display: flex;
+    margin: 30px 20px ;
+}
+.course{
+    /* height: 300px; */
+    margin: 10px 20px;
+    padding: 16px 8px 18px;
+}
+.course:hover{
+    border: 1px solid whitesmoke;
+    box-shadow: 5px 5px 10px rgb(202, 202, 202);
+    color: rgb(41 106 252 / 84%);
+    cursor: pointer;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.course .img-size{
+    width: 150px;
+    margin-bottom: 50px;
+}
+.course img{
+    width: 130px;
+}
+.course .course-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 20px;
+    font-size: 23px;
+    color: rgb(68, 68, 68);
+}
+
+/* jobs  */
+.provide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.provide img{
+    width: 150px;
+}
+.about-job{
+    margin: 40px 90px;
+}
+.desp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    /* width: 70%; */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* footer  */
+#footer{
+    margin-top: 100px;
+    background-color: black;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+.h-tertiary{
+    margin: 20px 35px;
+    font-size: 29px;
+    font-weight: bold;
+    color: white;
+}
+.grid li{
+    list-style: none;
+    font-size: 23px;
+    color: rgb(238, 237, 237);
+}
+.social{
+    display: flex;
+    margin: 10px 35px 0px 35px;
+}
+.social button{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding:10px;
+    font-size: 23px;
+}
+.social button i{
+    margin:0px 8px;
+}
+.social .app{
+    margin:20px 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    color: white;
+}
+.copyright{
+    display: flex;
+    margin-left: 700px;
+    margin-top: 10px;
+    font-size: 23px;
+    color: white;
+}
+hr{
+    color: gray;
+}
